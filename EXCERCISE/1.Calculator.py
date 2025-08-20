@@ -1,6 +1,7 @@
-a = 15
-b = 6
-print("The value of",a,"+",b,"is:",a+b)
-print("The value of",a,"-",b,"is:",a-b)
-print("The value of",a,"*",b,"is:",a*b)
-print("The value of",a,"/",b,"is:",a/b)
+a = input("ENTER 1st NUMBER: ")
+b = input("ENTER 2nd NUMBER: ")
+print("SUM OF",a,"+",b,"is: ",int(a)+int(b))
+print("DIFFERENCE OF",a,"-",b,"is: ",int(a)-int(b))
+print("MULTIPLICATION OF",a,"*",b,"is: ",int(a)*int(b))
+print("DIVISION OF",a,"/",b,"is: ",int(a)/int(b))
+print("REMAINDER OF",a,"%",b,"is: ",int(a)%int(b))
